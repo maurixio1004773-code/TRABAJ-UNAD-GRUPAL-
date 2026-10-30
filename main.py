@@ -6,7 +6,7 @@ Repositorio: maurixio1004773-code/TRABAJ-UNAD-GRUPAL-
 Integrantes y aportes:
 - Mauricio - maurixio1004773-code - Clase base Servicio y estructura main
 - Ingrid Alejandra - ingridalejandra407-lgtm - Clase ReservaSala
-- Juliana Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
+- Yenifer Juliana Burbano Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
 - Jhesir Ruiz - jhesiruiz730-spec - Clase AsesoriaEspecializada y logs
 
 Curso: Programacion Orientada a Objetos UNAD 2025
