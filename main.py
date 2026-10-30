@@ -1,4 +1,18 @@
-# Software FJ - Fase 4 - 213023 UNAD 
+# """
+TRABAJO UNAD GRUPAL - POO y Manejo de Excepciones
+Grupo: [Pon número de grupo]
+Repositorio: TRABAJ-UNAD-GRUPAL-
+
+Integrantes y aportes:
+- Mauricio [Apellido] - maurixio1004773-code - Clase base Servicio y estructura main.py
+- Ingrid Alejandra - ingridalejandra407-lgtm - Clase ReservaSala y validaciones
+- Juliana Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
+- Jhesir Ruiz - jhesiruiz730-spec - Clase AsesoriaEspecializada y manejo de logs
+
+Curso: Programación Orientada a Objetos UNAD 2025
+"""
+
+# --- Aquí sigue tu código desde la línea 1 --- 
 from abc import ABC, abstractmethod
 from datetime import datetime
 
