@@ -1,4 +1,4 @@
-# Software FJ - Fase 4 - 213023 UNAD - VERSION LIMPIA SIN TILDES
+# Software FJ - Fase 4 - 213023 UNAD 
 from abc import ABC, abstractmethod
 from datetime import datetime
 
