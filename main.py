@@ -7,7 +7,7 @@ Integrantes y aportes:
 - Mauricio - maurixio1004773-code - Clase base Servicio y estructura main
 - Ingrid Alejandra Muñoz Ruiz- ingridalejandra407-lgtm - Clase ReservaSala
 - Yenifer Juliana Burbano Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
-- Jhesir Ruiz - jhesiruiz730-spec - Clase AsesoriaEspecializada y logs
+- jhesi ruiz - jhesiruiz730-spec - Clase AsesoriaEspecializada y logs
 
 Curso: Programacion Orientada a Objetos UNAD 2025
 """
