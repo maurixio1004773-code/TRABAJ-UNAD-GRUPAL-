@@ -9,7 +9,7 @@ Integrantes y aportes:
 - Yenifer Juliana Burbano Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
 - jhesica Males  - jhesiruiz730-spec - Clase AsesoriaEspecializada y logs
 
-Curso: Programacion Orientada a Objetos UNAD 2025
+Curso: Programacion Orientada a Objetos UNAD 2026
 """
 
 from abc import ABC, abstractmethod
