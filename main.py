@@ -3,7 +3,7 @@ TRABAJO UNAD GRUPAL - POO y Manejo de Excepciones
 Grupo: TRABAJ-UNAD-GRUPAL-
 Repositorio: maurixio1004773-code/TRABAJ-UNAD-GRUPAL-
 
-Integrantes y aportes:
+Integrantes y aportes :
 - Mauricio - maurixio1004773-code - Clase base Servicio y estructura main
 - Ingrid Alejandra Muñoz - ingridalejandra407-lgtm - Clase ReservaSala
 - Yenifer Juliana Burbano Burbano - Julianaburbano65-lang - Clase AlquilerEquipo
