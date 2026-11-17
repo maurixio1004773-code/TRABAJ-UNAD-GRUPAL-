@@ -63,7 +63,7 @@ class AlquilerEquipo(Servicio):
         if cantidad <=0 or dias <=0:
             raise DatosInvalidosError("Cantidad o dias invalidos")
         self.tipo_equipo = tipo_equipo
-        self.cantidad = cantidad
+        self.cantidad = cantidad 
         self.dias = dias
     def describir_servicio(self):
         return f"AlquilerEquipo {self.nombre} ({self.tipo_equipo}) x{self.cantidad}"
