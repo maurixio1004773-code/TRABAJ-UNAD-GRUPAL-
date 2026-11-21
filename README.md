@@ -1,8 +1,8 @@
-# TRABAJ-UNAD-GRUPAL-
+# TRABAJO-UNAD-GRUPAL-351
 aporte del grupo 
 
-# aplicaci-n-
-# Software FJ - Fase 4 Programación UNAD 213023
+# Aplicación.
+# Software FJ - Fase 4 Programación UNAD 213023_351
 Sistema Integral de Gestión de Clientes, Servicios y Reservas
 
 ## Descripción
