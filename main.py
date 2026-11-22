@@ -46,16 +46,35 @@ class Servicio(ABC):
     def calcular_costo(self): pass
 
 class ReservaSala(Servicio):
+    """Clase que gestiona el servicio de reserva de salas por horas y capacidad."""
+
     def __init__(self, id_serv, nombre, precio_base, capacidad, horas):
         super().__init__(id_serv, nombre, precio_base)
+        if not isinstance(capacidad, int) or not isinstance(horas, (int, float)):
+            raise DatosInvalidosError("La capacidad y las horas deben ser numericas")
         if capacidad <= 0 or horas <= 0:
-            raise DatosInvalidosError(f"Capacidad u horas invalidas")
+            raise DatosInvalidosError("Capacidad u horas invalidas")
         self.capacidad = capacidad
         self.horas = horas
+
     def describir_servicio(self):
-        return f"ReservaSala {self.nombre} cap {self.capacidad}"
+        """Retorna una descripcion legible con los datos de la sala reservada."""
+        return f"ReservaSala {self.nombre} cap {self.capacidad} ({self.horas}h)"
+
     def calcular_costo(self):
+        """Calcula el costo total multiplicando el precio base por las horas."""
         return self.precio_base * self.horas
+
+    def extender_horas(self, horas_extra):
+        """Aumenta las horas de reserva validando que el valor sea positivo."""
+        if horas_extra <= 0:
+            raise DatosInvalidosError("Las horas adicionales deben ser mayores a cero")
+        self.horas += horas_extra
+        return self.horas
+
+    def verificar_aforo(self, cantidad_asistentes):
+        """Comprueba si el numero de asistentes cabe dentro de la capacidad."""
+        return 0 < cantidad_asistentes <= self.capacidad
 
 class AlquilerEquipo(Servicio):
     def __init__(self, id_serv, nombre, precio_base, tipo_equipo, cantidad, dias):
