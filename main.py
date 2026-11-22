@@ -76,6 +76,7 @@ class ReservaSala(Servicio):
         """Comprueba si el numero de asistentes cabe dentro de la capacidad."""
         return 0 < cantidad_asistentes <= self.capacidad
 
+
 class AlquilerEquipo(Servicio):
     def __init__(self, id_serv, nombre, precio_base, tipo_equipo, cantidad, dias):
         super().__init__(id_serv, nombre, precio_base)
